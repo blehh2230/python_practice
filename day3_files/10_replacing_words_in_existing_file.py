@@ -1,0 +1,6 @@
+f=open("File1.txt","r")
+data=f.read()
+new=data.replace("java","python")
+f=open("File1.txt","w")
+f.write(new)
+f.close()
